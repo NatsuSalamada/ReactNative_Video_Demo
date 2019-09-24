@@ -7,6 +7,8 @@ import com.facebook.react.PackageList;
 import com.facebook.hermes.reactexecutor.HermesExecutorFactory;
 import com.facebook.react.bridge.JavaScriptExecutorFactory;
 import com.facebook.react.ReactApplication;
+import com.dylanvann.fastimage.FastImageViewPackage;
+import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.brentvatne.react.ReactVideoPackage;
 import com.facebook.react.ReactNativeHost;

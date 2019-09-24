@@ -27,20 +27,15 @@ target 'videodemo' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'videodemoTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
 
   use_native_modules!
-end
 
-target 'videodemo-tvOS' do
-  # Pods for videodemo-tvOS
 
-  target 'videodemo-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  pod 'RNFastImage', :path => '../node_modules/react-native-fast-image'
+
+  pod 'XCDYouTubeKit', '~> 2.8'
+
 
 end
